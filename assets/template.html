@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=DM+Sans:wght@700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0D0907; }
+#root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+/* ── BACKGROUND: product asset video, full-frame, DOMINANT ── */
+#bg-video {
+  position: absolute; inset: 0; width: 1080px; height: 1920px;
+  object-fit: cover; z-index: 1;
+}
+#bg-fallback {
+  position: absolute; inset: 0; z-index: 0;
+  background:
+    radial-gradient(ellipse 900px 700px at 50% 34%, rgba(251,119,1,0.16) 0%, rgba(251,119,1,0) 64%),
+    radial-gradient(ellipse 800px 900px at 50% 120%, rgba(244,201,93,0.12) 0%, rgba(244,201,93,0) 60%),
+    #0D0907;
+}
+
+/* ── LEGIBILITY SCRIMS ── */
+#scrim-bottom {
+  position: absolute; bottom: 0; left: 0; width: 1080px; height: 760px;
+  background: linear-gradient(0deg, rgba(8,6,4,0.86) 0%, rgba(8,6,4,0.58) 34%, rgba(8,6,4,0.18) 68%, rgba(8,6,4,0) 100%);
+  z-index: 4; pointer-events: none;
+}
+#scrim-top {
+  position: absolute; top: 0; left: 0; width: 1080px; height: 340px;
+  background: linear-gradient(180deg, rgba(8,6,4,0.62) 0%, rgba(8,6,4,0) 100%);
+  z-index: 4; pointer-events: none;
+}
+#glow-orange {
+  position: absolute; left: -160px; bottom: 140px; width: 640px; height: 640px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(251,119,1,0.28) 0%, rgba(251,119,1,0) 68%);
+  z-index: 5; pointer-events: none;
+}
+#glow-gold {
+  position: absolute; right: -150px; bottom: 420px; width: 560px; height: 560px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(244,201,93,0.20) 0%, rgba(244,201,93,0) 70%);
+  z-index: 5; pointer-events: none;
+}
+#vignette {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 920px 1360px at 50% 42%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.42) 100%);
+  z-index: 6; pointer-events: none;
+}
+
+/* ── AVATAR: circle-crop bubble (NOT full screen, NOT chroma-keyed) ── */
+#avatar-wrap {
+  position: absolute; left: 24px; top: 900px; width: 420px; height: 420px;
+  border-radius: 50%; overflow: hidden;
+  z-index: 14; pointer-events: none; opacity: 0; transform-origin: 50% 100%;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.6), 0 0 0 5px rgba(251,119,1,0.6), 0 0 0 9px rgba(255,224,138,0.16);
+}
+#avatar-video {
+  width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%;
+}
+
+/* ── TEMU LOGO BADGE: raw mark only (no plate/background), top-right, outline glow for contrast ── */
+#temu-logo-badge {
+  position: absolute; top: 178px; right: 30px; width: 208px; height: 208px;
+  z-index: 21; pointer-events: none; opacity: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+#temu-logo-badge img {
+  max-width: 100%; max-height: 100%; object-fit: contain;
+  filter:
+    drop-shadow(0 0 0 rgba(0,0,0,0)) /* base */
+    drop-shadow(2px 0 0 rgba(13,9,7,0.9)) drop-shadow(-2px 0 0 rgba(13,9,7,0.9))
+    drop-shadow(0 2px 0 rgba(13,9,7,0.9)) drop-shadow(0 -2px 0 rgba(13,9,7,0.9))
+    drop-shadow(0 6px 18px rgba(0,0,0,0.55));
+}
+
+/* ── PRODUCT CENTER STAGE (image per TOP-item) ── */
+.product-scene {
+  position: absolute; top: 570px; left: 0; width: 1080px; height: 500px;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 11; pointer-events: none; opacity: 0;
+}
+.prod-glow {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+  width: 660px; height: 520px; border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255,236,180,0.28) 0%, rgba(255,236,180,0) 68%); z-index: 0;
+}
+.product-img {
+  max-width: 620px; max-height: 540px; object-fit: contain; z-index: 2;
+  filter: drop-shadow(0 22px 48px rgba(0,0,0,0.6));
+}
+
+/* ── TOP-N NUMBERED CHIPS ── */
+.gadget-chip-wrap {
+  position: absolute; left: 0; width: 1080px; top: 500px;
+  display: flex; justify-content: center; z-index: 13; pointer-events: none; opacity: 0;
+}
+.chip-inner {
+  display: inline-flex; align-items: center; gap: 22px; white-space: nowrap; max-width: 900px;
+  background: linear-gradient(140deg, #FB7701 0%, #E25A00 100%);
+  padding: 12px 40px 16px 16px; border-radius: 100px;
+  box-shadow: 0 10px 36px rgba(0,0,0,0.58), 0 2px 14px rgba(251,119,1,0.5);
+}
+.chip-num {
+  flex: none; width: 78px; height: 78px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: linear-gradient(140deg, #FFE08A 0%, #F4C95D 100%);
+  color: #241400; font-family: 'Barlow Condensed', sans-serif; font-weight: 900;
+  font-size: 56px; line-height: 1; padding-bottom: 4px; box-shadow: inset 0 -3px 8px rgba(0,0,0,0.2);
+}
+.chip-label {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 900; text-transform: uppercase;
+  font-size: 60px; letter-spacing: 0.01em; color: #FFFFFF; line-height: 1.22;
+  text-shadow: 2px 3px 10px rgba(0,0,0,0.4);
+}
+
+/* ── HOOK / THEME PLATE ── */
+#hook-plate {
+  position: absolute; left: 0; width: 1080px; top: 300px;
+  display: flex; flex-direction: column; align-items: center; z-index: 12; pointer-events: none; opacity: 0;
+}
+.bar-orange {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 900; text-transform: uppercase;
+  font-size: 116px; letter-spacing: -0.01em; color: #FFFFFF; text-align: center; line-height: 0.98;
+  background: linear-gradient(140deg, #FB7701 0%, #E25A00 100%); padding: 18px 56px 24px; border-radius: 22px;
+  box-shadow: 0 12px 44px rgba(0,0,0,0.58), 0 2px 14px rgba(251,119,1,0.5); text-shadow: 2px 3px 10px rgba(0,0,0,0.38);
+  max-width: 960px;
+}
+.plate-sub {
+  margin-top: 18px; font-family: 'Barlow Condensed', sans-serif; font-weight: 900; text-transform: uppercase;
+  font-size: 52px; color: #FFE08A; letter-spacing: 0.03em; text-align: center;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.88); max-width: 940px;
+}
+
+/* ── COUPON CHIP: the ONE coupon element (top-left), label+code+hint, delayed reveal, ── */
+/* pulses bigger at the climax instead of spawning a second duplicate card. */
+#coupon-chip-small { position: absolute; top: 250px; left: 40px; z-index: 21; pointer-events: none; opacity: 0; }
+.ccs-inner {
+  display: inline-flex; flex-direction: column; align-items: center;
+  background: rgba(14,11,8,0.96); border: 3px solid #FB7701; border-radius: 22px; padding: 18px 38px 22px;
+  box-shadow: 0 10px 36px rgba(0,0,0,0.68), 0 0 0 3px rgba(255,224,138,0.16);
+}
+.ccs-label {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 32px;
+  letter-spacing: 0.08em; text-transform: uppercase; color: #FFE08A; line-height: 1.1; white-space: nowrap;
+}
+.ccs-code {
+  font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 68px; letter-spacing: 0.03em;
+  color: #FFFFFF; line-height: 1.15; margin-top: 10px; /* CASE-EXACT — never text-transform */
+}
+.ccs-hint {
+  font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 27px; color: rgba(255,255,255,0.72);
+  margin-top: 10px; text-align: center; white-space: nowrap;
+}
+
+/* ── CTA PILL ── */
+#cta-pill { position: absolute; top: 1400px; left: 0; width: 1080px; text-align: center; z-index: 12; pointer-events: none; opacity: 0; }
+.cta-pill-inner {
+  display: inline-block; font-family: 'Barlow Condensed', sans-serif; font-weight: 900; text-transform: uppercase;
+  font-size: 50px; letter-spacing: 0.02em; color: #FFFFFF;
+  background: linear-gradient(140deg, #FB7701 0%, #E25A00 100%); padding: 14px 44px 18px; border-radius: 100px;
+  box-shadow: 0 10px 36px rgba(0,0,0,0.55), 0 2px 14px rgba(251,119,1,0.5); text-shadow: 1px 2px 8px rgba(0,0,0,0.4);
+}
+
+/* ── CAPTIONS (mid-lower safe band) ── */
+#captions-wrap {
+  position: absolute; left: 90px; width: 820px; top: 1245px; height: 150px;
+  display: flex; align-items: flex-start; justify-content: center; z-index: 30; pointer-events: none;
+}
+.caption-group { position: absolute; left: 0; width: 100%; display: flex; justify-content: center; opacity: 0; visibility: hidden; }
+.caption-text {
+  font-family: 'DM Sans', sans-serif; font-weight: 800; color: #FFFFFF; line-height: 1.18;
+  letter-spacing: -0.01em; padding: 10px 26px 13px; border-radius: 10px;
+  background: rgba(0,0,0,0.86); display: inline-block; text-align: center;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 2px 12px rgba(0,0,0,0.85);
+}
+.spark { position: absolute; border-radius: 50%; background: rgba(255,224,138,0.62); pointer-events: none; opacity: 0; z-index: 8; }
+</style>
+</head>
+<body>
+<!-- DATA is injected by scaffold_project.mjs (one JSON token). Everything else is built from it. -->
+<script id="top5-data" type="application/json">{{DATA_JSON}}</script>
+
+<div id="root"
+     data-composition-id="{{COMPOSITION_ID}}"
+     data-width="1080" data-height="1920"
+     data-start="0" data-duration="{{DURATION}}">
+
+  <div id="bg-fallback"></div>
+  {{BG_EL}}
+
+  <div id="scrim-bottom"></div>
+  <div id="scrim-top"></div>
+  <div id="glow-orange" data-layout-allow-overflow></div>
+  <div id="glow-gold" data-layout-allow-overflow></div>
+  <div id="vignette"></div>
+
+  <div id="product-stage"></div>   <!-- .product-scene per item -->
+  <div id="chips"></div>           <!-- .gadget-chip-wrap per item -->
+
+  <div id="avatar-wrap">{{AVATAR_EL}}</div>
+
+  <div id="hook-plate"></div>
+  <div id="coupon-chip-small"></div>
+  <div id="temu-logo-badge"></div>
+  <div id="cta-pill"></div>
+  <div id="captions-wrap"></div>
+
+  <!-- STATIC audio element (HyperFrames muxes audio from static <audio>/<video>, not JS-injected) -->
+  {{AUDIO_EL}}
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+var DATA = JSON.parse(document.getElementById('top5-data').textContent);
+var DUR = DATA.duration;
+var root = document.getElementById('root');
+var fit = (window.__hyperframes && window.__hyperframes.fitTextFontSize) || null;
+
+/* bg video, avatar video, and audio are STATIC elements in the markup above (HyperFrames'
+   media contract requires a static src); the JS below only builds overlays + the timeline. */
+/* ── hook / theme plate ── */
+var hook = document.getElementById('hook-plate');
+var bar = document.createElement('div'); bar.className = 'bar-orange'; bar.textContent = DATA.theme.title;
+hook.appendChild(bar);
+if (DATA.theme.subtitle) { var ps = document.createElement('div'); ps.className = 'plate-sub'; ps.textContent = DATA.theme.subtitle; hook.appendChild(ps); }
+
+/* ── product chips + center images ── */
+var chipsEl = document.getElementById('chips');
+var stageEl = document.getElementById('product-stage');
+DATA.products.forEach(function (p, i) {
+  var w = document.createElement('div'); w.className = 'gadget-chip-wrap'; w.id = 'chip-' + i;
+  var inner = document.createElement('div'); inner.className = 'chip-inner';
+  var num = document.createElement('span'); num.className = 'chip-num'; num.textContent = String(p.n != null ? p.n : (i + 1));
+  var lab = document.createElement('span'); lab.className = 'chip-label'; lab.textContent = p.name;
+  inner.appendChild(num); inner.appendChild(lab); w.appendChild(inner); chipsEl.appendChild(w);
+
+  var sc = document.createElement('div'); sc.className = 'product-scene'; sc.id = 'ps-' + i;
+  var g = document.createElement('div'); g.className = 'prod-glow'; sc.appendChild(g);
+  if (p.img) { var im = document.createElement('img'); im.className = 'product-img'; im.src = p.img; im.alt = p.name; sc.appendChild(im); }
+  stageEl.appendChild(sc);
+});
+
+/* ── coupon chip: the ONE coupon element (label + code + hint) ── */
+var ccs = document.getElementById('coupon-chip-small');
+var ccsIn = document.createElement('div'); ccsIn.className = 'ccs-inner';
+var ccsL = document.createElement('div'); ccsL.className = 'ccs-label'; ccsL.textContent = DATA.coupon.label;
+var ccsC = document.createElement('div'); ccsC.className = 'ccs-code'; ccsC.textContent = DATA.coupon.code;  /* case-exact */
+ccsIn.appendChild(ccsL); ccsIn.appendChild(ccsC);
+if (DATA.coupon.hint) { var ccsH = document.createElement('div'); ccsH.className = 'ccs-hint'; ccsH.textContent = DATA.coupon.hint; ccsIn.appendChild(ccsH); }
+ccs.appendChild(ccsIn);
+
+/* ── TEMU logo badge (raw mark, top-right, ties the ad back to the marketplace) ── */
+var logoBadge = document.getElementById('temu-logo-badge');
+if (DATA.logo) { var logoImg = document.createElement('img'); logoImg.src = DATA.logo; logoImg.alt = 'Temu'; logoBadge.appendChild(logoImg); }
+
+/* ── CTA pill ── */
+var cta = document.getElementById('cta-pill');
+var ctaIn = document.createElement('div'); ctaIn.className = 'cta-pill-inner'; ctaIn.textContent = DATA.coupon.cta || '';
+if (DATA.coupon.cta) cta.appendChild(ctaIn);
+
+/* ── captions ── */
+var captEl = document.getElementById('captions-wrap');
+(DATA.captions || []).forEach(function (g, i) {
+  var el = document.createElement('div'); el.id = 'cg-' + i; el.className = 'caption-group';
+  var inner = document.createElement('div'); inner.className = 'caption-text';
+  var m = fit ? fit(g.text, { fontFamily: 'DM Sans', fontWeight: 800, maxWidth: 860, baseFontSize: 62, minFontSize: 38 }) : { fontSize: 62 };
+  inner.style.fontSize = (m.fontSize || 62) + 'px'; inner.textContent = g.text;
+  el.appendChild(inner); captEl.appendChild(el);
+});
+
+/* ── seeded sparks (lower stage only) ── */
+function mulberry32(s){return function(){s|=0;s=(s+0x6D2B79F5)|0;var t=Math.imul(s^(s>>>15),1|s);t=(t+Math.imul(t^(t>>>7),61|t))^t;return((t^(t>>>14))>>>0)/4294967296;};}
+var rng = mulberry32(DATA.seed || 777); var sparks = [];
+for (var si = 0; si < 12; si++) {
+  var sp = document.createElement('div'); sp.className = 'spark';
+  var sz = 5 + rng() * 11; sp.style.width = sz + 'px'; sp.style.height = sz + 'px';
+  sp.style.left = (70 + rng() * 940) + 'px'; sp.style.top = (960 + rng() * 620) + 'px';
+  root.appendChild(sp); sparks.push({ el: sp, ph: rng() });
+}
+
+/* ════════════════ TIMELINE ════════════════ */
+var tl = gsap.timeline({ paused: true });
+
+/* bg Ken Burns — slow continuous zoom for life */
+if (DATA.bg && DATA.bg.src) tl.fromTo('#bg-video', { scale: 1.0 }, { scale: 1.09, duration: DUR, ease: 'none', transformOrigin: '50% 45%' }, 0);
+
+/* bg ambience */
+tl.fromTo('#glow-orange', { opacity: 0.85, scale: 1.0 }, { opacity: 1.0, scale: 1.1, duration: 1.9, ease: 'sine.inOut', yoyo: true, repeat: Math.max(1, Math.ceil(DUR/3.8)) }, 0);
+tl.fromTo('#glow-gold', { opacity: 0.8, scale: 1.0 }, { opacity: 1.0, scale: 1.12, duration: 2.3, ease: 'sine.inOut', yoyo: true, repeat: Math.max(1, Math.ceil(DUR/4.6)) }, 0.4);
+sparks.forEach(function (o) { var d = o.ph * 4.0; var c = Math.ceil((DUR - d) / 2.2); if (c < 1) c = 1; tl.fromTo(o.el, { opacity: 0, y: 0 }, { opacity: 0.7, y: -48, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: c - 1 }, d); });
+
+/* avatar in (stays to end) + gentle idle sway */
+if (DATA.avatar && DATA.avatar.src) {
+  var avIn = (DATA.avatar.start || 0) + 0.2;
+  tl.fromTo('#avatar-wrap', { x: -90, opacity: 0, scale: 0.86 }, { x: 0, opacity: 1, scale: 1, duration: 0.55, ease: 'back.out(1.7)' }, avIn);
+  var swayN = Math.max(1, Math.floor((DUR - avIn - 0.6) / 2.6));
+  tl.to('#avatar-wrap', { rotation: 1.3, duration: 2.6, ease: 'sine.inOut', yoyo: true, repeat: swayN - 1 }, avIn + 0.6);
+}
+
+/* persistent coupon chip in (stays to end) + periodic idle pulse to draw the eye */
+tl.fromTo('#coupon-chip-small', { x: -110, opacity: 0, scale: 0.78 }, { x: 0, opacity: 1, scale: 1, duration: 0.52, ease: 'back.out(1.8)' }, DATA.timing.couponChipIn);
+for (var pAt = DATA.timing.couponChipIn + 3.5; pAt < DATA.timing.coupon.start - 1.0; pAt += 4.0)
+  tl.to('#coupon-chip-small', { scale: 1.08, duration: 0.4, ease: 'sine.inOut', yoyo: true, repeat: 1, overwrite: 'auto' }, pAt);
+
+/* TEMU logo badge in alongside the coupon chip (stays to end) */
+if (DATA.logo) tl.fromTo('#temu-logo-badge', { x: 110, opacity: 0, scale: 0.78 }, { x: 0, opacity: 1, scale: 1, duration: 0.52, ease: 'back.out(1.8)' }, DATA.timing.couponChipIn);
+
+/* hook plate */
+var H = DATA.timing.hook;
+tl.fromTo('#hook-plate', { y: 70, opacity: 0, scale: 0.82 }, { y: 0, opacity: 1, scale: 1, duration: 0.46, ease: 'back.out(2.0)' }, H.start);
+if (DATA.theme.subtitle) tl.fromTo('#hook-plate .plate-sub', { y: 22, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: 'power2.out' }, H.start + 0.38);
+tl.to('#hook-plate', { y: -42, opacity: 0, filter: 'blur(8px)', scale: 0.94, duration: 0.28, ease: 'power3.in', overwrite: 'auto' }, H.end);
+
+/* products — punchy entrance, continuous bob+tilt, blur exit */
+DATA.products.forEach(function (p, i) {
+  /* number chip pops with a spin on the numeral */
+  tl.fromTo('#chip-' + i, { y: -44, opacity: 0, scale: 0.7, rotation: -6 }, { y: 0, opacity: 1, scale: 1, rotation: 0, duration: 0.44, ease: 'back.out(2.2)' }, p.start);
+  tl.fromTo('#chip-' + i + ' .chip-num', { rotation: -180, scale: 0.4 }, { rotation: 0, scale: 1, duration: 0.5, ease: 'back.out(2.0)' }, p.start + 0.04);
+  /* product slides+rotates in with overshoot */
+  tl.fromTo('#ps-' + i, { y: 90, opacity: 0, scale: 0.78, rotation: -7 }, { y: 0, opacity: 1, scale: 1, rotation: 0, duration: 0.5, ease: 'back.out(1.9)' }, p.start + 0.12);
+  /* continuous bob + tilt across the whole product window */
+  var win = Math.max(0.8, p.end - p.start - 0.9);
+  var bob = Math.max(1, Math.round(win / 1.2));
+  tl.to('#ps-' + i, { y: -18, rotation: 2.2, duration: 1.2, ease: 'sine.inOut', yoyo: true, repeat: bob - 1 }, p.start + 0.72);
+  /* exit */
+  tl.to('#chip-' + i, { y: -40, opacity: 0, scale: 0.92, duration: 0.26, ease: 'power3.in', overwrite: 'auto' }, p.end - 0.02);
+  tl.to('#ps-' + i, { y: 56, opacity: 0, scale: 0.9, filter: 'blur(8px)', duration: 0.3, ease: 'power3.in', overwrite: 'auto' }, p.end - 0.02);
+});
+
+/* coupon climax: the SAME chip moves to center stage (where the product label just was)
+   and pops bigger + glows there — no second card. Move + scale are ONE tween on .ccs-inner
+   (not the invisible unmoved wrapper) so they share a transform origin cleanly.
+   CRITICAL: this must fire only AFTER the last product has fully finished exiting — never
+   overlap the coupon with a still-visible/still-exiting product image underneath it (that
+   produced a ghosted product bleeding through the coupon plate — user feedback 2026-07-13). */
+var C = DATA.timing.coupon;
+var lastProductEnd = 0;
+DATA.products.forEach(function (p) { if (p.end > lastProductEnd) lastProductEnd = p.end; });
+var moveAt = Math.max(C.start, lastProductEnd + 0.35);
+tl.to('#coupon-chip-small .ccs-inner', { x: 236, y: 161, scale: 1.32, duration: 0.55, ease: 'back.out(1.6)' }, moveAt);
+var breathe = Math.max(1, Math.floor((DUR - (moveAt + 0.6)) / 1.4));
+tl.fromTo('#coupon-chip-small .ccs-inner',
+  { boxShadow: '0 10px 36px rgba(0,0,0,0.68), 0 0 0 3px rgba(255,224,138,0.16)' },
+  { boxShadow: '0 10px 50px rgba(251,119,1,0.85), 0 0 0 5px rgba(255,224,138,0.55)', duration: 1.4, ease: 'sine.inOut', yoyo: true, repeat: breathe - 1 }, moveAt + 0.6);
+
+/* CTA */
+if (DATA.coupon.cta) {
+  var T = DATA.timing.cta;
+  tl.fromTo('#cta-pill', { y: 36, opacity: 0, scale: 0.85 }, { y: 0, opacity: 1, scale: 1, duration: 0.44, ease: 'back.out(1.8)' }, T);
+  tl.fromTo('#cta-pill .cta-pill-inner',
+    { boxShadow: '0 10px 36px rgba(0,0,0,0.55), 0 2px 14px rgba(251,119,1,0.5)' },
+    { boxShadow: '0 10px 50px rgba(251,119,1,0.85), 0 2px 22px rgba(251,119,1,0.7)', duration: 0.7, ease: 'sine.inOut', yoyo: true, repeat: 3 }, T + 0.5);
+}
+
+/* final fade */
+tl.to('#root', { opacity: 0, duration: 0.55, ease: 'power2.in' }, DUR - 0.55);
+
+/* captions */
+(DATA.captions || []).forEach(function (g, i) {
+  var el = document.getElementById('cg-' + i); if (!el) return;
+  tl.set(el, { visibility: 'visible' }, g.start);
+  /* Transition duration is PROPORTIONAL to this caption's own on-screen window, not a flat
+     value. A flat 0.22s-in/0.15s-out (tried 2026-07-13) reads fine on a ~1.3s caption but eats
+     60-70% of a ~0.55-0.6s one (several exist — real speech has fast 1-2-word beats), leaving
+     almost no fully-readable time — which paradoxically felt MORE rushed, not less, exactly the
+     "спешат... на секунду где-то" complaint. Cap each phase at ~28%/22% of the group's duration
+     (floor: still snappy but no visible snap) so short cues always keep >45% of their window
+     fully settled and readable, while longer cues still get the fuller, calmer 0.22/0.15 pop. */
+  var gd = Math.max(0.05, g.end - g.start);
+  var inD = Math.min(0.22, gd * 0.28);
+  var outD = Math.min(0.15, gd * 0.22);
+  tl.fromTo(el, { opacity: 0, y: 12, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: inD, ease: 'power2.out' }, g.start);
+  tl.to(el, { opacity: 0, duration: outD, ease: 'power2.in', overwrite: 'auto' }, g.end - outD);
+  tl.set(el, { visibility: 'hidden' }, g.end);
+});
+tl.seek(0);
+
+window.__timelines['{{COMPOSITION_ID}}'] = tl;
+</script>
+</body>
+</html>

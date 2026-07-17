@@ -1,0 +1,20 @@
+uk: 3 -> Anna Stepanenko - Bright and Distinct [2o2uQnlGaNuV3ObRpxXt]; Olena - Rich, Deep and Vibrant [ARxhnQPZCfSLpMBASSii]; Yaroslava - Loud and Hasty [0ZQZuw8Sn4cU0rN1Tm2K]
+pl: 4 -> Jagna [m2VPSbnJZWpLA9r0WX9q]; Lena - Velvety & Trustworthy [d26eMDXtCFizSzBVHFFS]; Marta - Calm, Symphatic, and Empathetic [lehrjHysCyPSvjt0uSy6]; Tabaza - Clear and Neutral [mm5VPgPEmjoD9MmwFLFW]
+de: 11 -> Bernie - Confident,  Tyrolean & On Fire [69YI7QbstYt9RDECRPuC]; Carla Blum - Confident and Informative [rKiu7lQ4c5P3az3745s3]; Ela - Cheerful and Happy [NE7AIW5DoJ7lUosXV2KR]; Emilia - Positive and Thoughtful [N8RXoLEWQWUCCrT8uDK7]; Irene UGC - Conversational & Optimistic [MOOG1hZESAxDt4UaletY]; Irene - Warm, Smart and Educational [8wPhfH9uUzEMHTmRkoAR]
+cs: 4 -> Anet - Youthful and Lively [MpbYQvoTmXjHkaxtLiSh]; Denisa - Soft, Balanced and Tender [OAAjJsQDvpg3sVjiLgyl]; Marketa - Czech Female Voice [Nr9bRiFsgPeaoVggMD2V]; Michaela - Calm Teacher [vdZa6jplen8RQdIWzOGX]
+sk: 0 -> 
+sl: 0 -> 
+hr: 2 -> Ivana - Calm, Slow & Friendly [JDYfAX20MbYfJGIjPTZz]; Lara - Positive, Formal [L1kQ6rz0P1bI4L5Av3Ow]
+hu: 2 -> Mária [WNxHBFUm0NC5fojx98kr]; Vera - Young, Energetic and Expressive [xjlfQQ3ynqiEyRpArrT8]
+el: 5 -> Madlen - Casual, Calm and Brisk [Jv2zcgjn9Qu0uNMKJjb1]; Martha - Expressive Greek Female [JrrE7QTGDmQKQuUnqk7H]; Niki 2 - Calm, Reassuring and Engaging [AnNshXL08po8KEaf53gz]; Sofia [0oYUKTNPbymIKVAkDQqh]; Sophia - Assertive, Joyful and Warm [7smwXrU3C1PfaspIIUZB]
+nl: 0 -> 
+sv: 0 -> 
+da: 1 -> Camilla - Engaging, Clear and Calm [4RklGmuxoAskAbGXplXN]
+lv: 0 -> 
+es: 9 -> Angelica - Friendly, Energetic & Professional [twZzvyYIl5ntDHC1Vatv]; Belén - Kind and soft [KDG2CWzkFgcZz4Vqbu8m]; Clara - Elegant, Sultry and Soft [LudcwvHIZaqQOcQfVZSY]; Elena - Resolute, Engaging and Lively [tXgbXPnsMpKXkuTgvE3h]; Martina - Proactive AI Assistant [jw1XYij1FCiI9FENSxIf]; Milena - Silky, Sweet and Neutral [oWSxI36XAKnfMWmzmQok]
+pt: 3 -> Aline Mota - Urgent and Firm [4RyYr3owp1gnOgHKTs6D]; Dani - Warm Brazilian Social Media Voice [PznTnBc8X6pvixs9UkQm]; Letícia - Gentle, Pleasant & Warm [CcElPA8NBrawbunFs7rh]
+fr: 8 -> Audrey - Energetic Commercial [McVZB9hVxVSk3Equu8EH]; Camille Martin - Calm, Deep and Aged [hFgOzpmS0CMtL2to8sAl]; Camille - Content Creator [Da9VfudgKUvFOKayCiue]; Chloé - Warm, Friendly & UGC Ready [Hy28BjVfgieDVMiyQpQe]; Jade - Customer Service [3C1zYzXNXNzrB66ON8rj]; Koraly – Promo Video [rbFGGoDXFHtVghjHuS3E]
+it: 4 -> Aida - Engaging, Convincing and Smiley [QttbagfgqUCm9K0VgUyT]; Daniela - Young and elegant [kavPiGHUq62Aokyp5Tui]; Tiziana - Smart, Balanced and Credible [RXoaSpLaWTEckJgPUBG3]; Nora - Bright Italian Female Narrator [zFA34HbdHBvF8WhlSusK]
+en: 35 -> Sarah - Mature, Reassuring, Confident [EXAVITQu4vr4xnSDxMaL]; Laura - Enthusiast, Quirky Attitude [FGY2WhTYpPnrIDTdsKH5]; Alice - Clear, Engaging Educator [Xb7hH8MSUJpSbSDYk0k2]; Matilda - Knowledgable, Professional [XrExE9yKIg1WjnnlVkGX]; Jessica - Playful, Bright, Warm [cgSgspJ2msm6clMCkdW9]; Bella - Professional, Bright, Warm [hpp4J3VqNfWAUOO0d1Us]
+ko: 2 -> Eunha - Elegant Korean Female [cBOtnpVZNlQ5VJygXGB8]; Stella - Steady, Clear and Cheerful [1YzIw7PZ7iaD4alelyHY]
+ja: 5 -> Kuon - Cheerful, Clear and Steady [B8gJV1IhpuegLxdpXFOE]; Miiko - Clear Japanese Tutorial [1czwMoQxv9Ni4H7M5hXx]; Miyu - Bright and Compelling [EnLxjGl88dNO1Jv6AZk2]; Yoko - Calm & Resonant Woman [j3dRDAhPGt6NA8DY9Flv]; Yui - Warm, Clear and Natural [fUjY9K2nAIwlALOwSiwc]

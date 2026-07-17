@@ -1,0 +1,28 @@
+{
+  "_note": "Per-GEO ElevenLabs voice map. All FEMALE, all pulled 2026-07-17 from GET /v1/voices on this account's own library (confirmed present + working) — NOT legacy public voice IDs. Those legacy IDs (Rachel/Domi/Elli/Freya/Arnold/Sam/Josh/Antoni/Adam) turned out to be silently unreliable: PL's old id 404'd outright, and a follow-up lookup found most of the other legacy ids in this old table weren't even present in the account's own /v1/voices listing (unverifiable, risky). Re-verify with GET /v1/voices before reusing this table long-term — ElevenLabs can retire voices. Keep in sync with references/style.md. model_id confirmed at build time.",
+  "model_id": "eleven_multilingual_v2",
+  "geos": {
+    "ua":  { "lang": "uk", "voice_id": "ARxhnQPZCfSLpMBASSii" },
+    "pl":  { "lang": "pl", "voice_id": "mm5VPgPEmjoD9MmwFLFW" },
+    "de":  { "lang": "de", "voice_id": "MOOG1hZESAxDt4UaletY" },
+    "at":  { "lang": "de", "voice_id": "rKiu7lQ4c5P3az3745s3" },
+    "cz":  { "lang": "cs", "voice_id": "Nr9bRiFsgPeaoVggMD2V" },
+    "svk": { "lang": "sk", "voice_id": "MpbYQvoTmXjHkaxtLiSh" },
+    "si":  { "lang": "sl", "voice_id": "L1kQ6rz0P1bI4L5Av3Ow" },
+    "hr":  { "lang": "hr", "voice_id": "JDYfAX20MbYfJGIjPTZz" },
+    "hu":  { "lang": "hu", "voice_id": "WNxHBFUm0NC5fojx98kr" },
+    "gr":  { "lang": "el", "voice_id": "7smwXrU3C1PfaspIIUZB" },
+    "nl":  { "lang": "nl", "voice_id": "Xb7hH8MSUJpSbSDYk0k2" },
+    "se":  { "lang": "sv", "voice_id": "cgSgspJ2msm6clMCkdW9" },
+    "dk":  { "lang": "da", "voice_id": "4RklGmuxoAskAbGXplXN" },
+    "lat": { "lang": "lv", "voice_id": "XrExE9yKIg1WjnnlVkGX" },
+    "es":  { "lang": "es", "voice_id": "KDG2CWzkFgcZz4Vqbu8m" },
+    "pt":  { "lang": "pt", "voice_id": "CcElPA8NBrawbunFs7rh" },
+    "fr":  { "lang": "fr", "voice_id": "Hy28BjVfgieDVMiyQpQe" },
+    "it":  { "lang": "it", "voice_id": "QttbagfgqUCm9K0VgUyT" },
+    "en":  { "lang": "en", "voice_id": "EXAVITQu4vr4xnSDxMaL" },
+    "kr":  { "lang": "ko", "voice_id": "cBOtnpVZNlQ5VJygXGB8" },
+    "jp":  { "lang": "ja", "voice_id": "EnLxjGl88dNO1Jv6AZk2" }
+  },
+  "fallback": { "lang": "en", "voice_id": "EXAVITQu4vr4xnSDxMaL" }
+}

@@ -1,0 +1,1528 @@
+[
+ {
+  "name": "Roger - Laid-Back, Casual, Resonant",
+  "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Sarah - Mature, Reassuring, Confident",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "entertainment_tv",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Laura - Enthusiast, Quirky Attitude",
+  "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "sassy"
+ },
+ {
+  "name": "Charlie - Deep, Confident, Energetic",
+  "voice_id": "IKne3meq5aSn9XLyUdCD",
+  "gender": "male",
+  "accent": "australian",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "hyped"
+ },
+ {
+  "name": "George - Warm, Captivating Storyteller",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "gender": "male",
+  "accent": "british",
+  "language": "en",
+  "use_case": "narrative_story",
+  "descriptive": "mature"
+ },
+ {
+  "name": "Callum - Husky Trickster",
+  "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "characters_animation"
+ },
+ {
+  "name": "River - Relaxed, Neutral, Informative",
+  "voice_id": "SAz9YHcvj6GT2YYXdXww",
+  "gender": "neutral",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Harry - Fierce Warrior",
+  "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "characters_animation",
+  "descriptive": "rough"
+ },
+ {
+  "name": "Liam - Energetic, Social Media Creator",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Alice - Clear, Engaging Educator",
+  "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Matilda - Knowledgable, Professional",
+  "voice_id": "XrExE9yKIg1WjnnlVkGX",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Will - Relaxed Optimist",
+  "voice_id": "bIHbv24MWmeRgasZH58o",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "chill"
+ },
+ {
+  "name": "Jessica - Playful, Bright, Warm",
+  "voice_id": "cgSgspJ2msm6clMCkdW9",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "cute"
+ },
+ {
+  "name": "Eric - Smooth, Trustworthy",
+  "voice_id": "cjVigY5qzO86Huf0OWal",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Bella - Professional, Bright, Warm",
+  "voice_id": "hpp4J3VqNfWAUOO0d1Us",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Chris - Charming, Down-to-Earth",
+  "voice_id": "iP95p4xoKVk53GoZ742B",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Brian - Deep, Resonant and Comforting",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Daniel - Steady Broadcaster",
+  "voice_id": "onwK4e9ZLuTAKqWW03F9",
+  "gender": "male",
+  "accent": "british",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "formal"
+ },
+ {
+  "name": "Lily - Velvety Actress",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Adam - Dominant, Firm",
+  "voice_id": "pNInz6obpgDQGcFmaJgB",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media"
+ },
+ {
+  "name": "Bill - Wise, Mature, Balanced",
+  "voice_id": "pqHfZKP75CvOlQylNhV4",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "crisp"
+ },
+ {
+  "name": "Aida - Engaging, Convincing and Smiley",
+  "voice_id": "QttbagfgqUCm9K0VgUyT",
+  "gender": "female",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "advertisement",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Aline Mota - Urgent and Firm",
+  "voice_id": "4RyYr3owp1gnOgHKTs6D",
+  "gender": "female",
+  "accent": "brazilian",
+  "language": "pt",
+  "use_case": "advertisement",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Alberto Rodríguez - Serious, Narrative",
+  "voice_id": "l1zE9xgNpUTaQCZzpNJa",
+  "gender": "male",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "narrative_story",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Ananya K – Clear & Polished Reel Voice",
+  "voice_id": "QbQKfe9vgx5OsbZUvlFv",
+  "gender": "female",
+  "accent": "indian",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Andreea - Joyful and Optimistic",
+  "voice_id": "QtObtrglHRaER8xlDZsr",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "social_media",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Anca - Warm, Expressive and Soothing",
+  "voice_id": "GRHbHyXbUO8nF4YexVTa",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Anet - Youthful and Lively",
+  "voice_id": "MpbYQvoTmXjHkaxtLiSh",
+  "gender": "female",
+  "accent": "standard",
+  "language": "cs",
+  "use_case": "social_media",
+  "descriptive": "cute"
+ },
+ {
+  "name": "Anika - Sweet and Lively",
+  "voice_id": "ecp3DWciuUyW7BYM7II1",
+  "gender": "female",
+  "accent": "indian",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Angela ",
+  "voice_id": "PT4nqlKZfc06VW1BuClj",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "relaxed"
+ },
+ {
+  "name": "Audrey - Energetic Commercial",
+  "voice_id": "McVZB9hVxVSk3Equu8EH",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Anna Stepanenko - Bright and Distinct",
+  "voice_id": "2o2uQnlGaNuV3ObRpxXt",
+  "gender": "female",
+  "accent": "standard",
+  "language": "uk",
+  "use_case": "narrative_story",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Ate Marcela - Joyful and Optimistic",
+  "voice_id": "NL3wAdhrhsFZAoDTBMHk",
+  "gender": "female",
+  "accent": "cebuano",
+  "language": "fil",
+  "use_case": "advertisement",
+  "descriptive": "formal"
+ },
+ {
+  "name": "Angelica - Friendly, Energetic & Professional",
+  "voice_id": "twZzvyYIl5ntDHC1Vatv",
+  "gender": "female",
+  "accent": "mexican",
+  "language": "es",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Amadeus - Invested Storyteller",
+  "voice_id": "t7N67yv6R8AKFjJI6K7I",
+  "gender": "male",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "narrative_story",
+  "descriptive": "deep"
+ },
+ {
+  "name": "Aurora - Cheerful, Optimistic and Round",
+  "voice_id": "YSabzCJMvEHDduIDMdwV",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fi",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Belén - Kind and soft",
+  "voice_id": "KDG2CWzkFgcZz4Vqbu8m",
+  "gender": "female",
+  "accent": "peninsular",
+  "language": "es",
+  "use_case": "advertisement",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Bernie - Confident,  Tyrolean & On Fire",
+  "voice_id": "69YI7QbstYt9RDECRPuC",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "advertisement",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "Blondie - Saleswoman",
+  "voice_id": "Z8EQ8njRgMwlt3sxHWT2",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Brian C - Clean, professional, warm",
+  "voice_id": "Czw3Dn181ypdrCOnPfif",
+  "gender": "male",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "narrative_story",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Beth - Commercial, Upbeat, Engaging",
+  "voice_id": "FLj50PrMa40MhGHappOt",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Andrei - Sophisticated and Empathetic",
+  "voice_id": "S98OhkhaxeAKHEbhoLi7",
+  "gender": "male",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Camilla - Engaging, Clear and Calm",
+  "voice_id": "4RklGmuxoAskAbGXplXN",
+  "gender": "female",
+  "accent": "standard",
+  "language": "da",
+  "use_case": "narrative_story",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Camille Martin - Calm, Deep and Aged",
+  "voice_id": "hFgOzpmS0CMtL2to8sAl",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Carla Blum - Confident and Informative",
+  "voice_id": "rKiu7lQ4c5P3az3745s3",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "informative_educational",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Camille - Content Creator",
+  "voice_id": "Da9VfudgKUvFOKayCiue",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "advertisement",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Chloé - Warm, Friendly & UGC Ready",
+  "voice_id": "Hy28BjVfgieDVMiyQpQe",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Chris - Supportive and Cool",
+  "voice_id": "uUnmYv9aJqaqzs1wcFRH",
+  "gender": "male",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "conversational",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Celine - Clear and Confident",
+  "voice_id": "k5IgYJw2jfo6mO5HhagG",
+  "gender": "female",
+  "accent": "standard",
+  "language": "no",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Christina - Energetic Commercial American Female Voice",
+  "voice_id": "BuaKXS4Sv1Mccaw3flfU",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Clara - Loud, Pushy and Energetic",
+  "voice_id": "k9KXsQFJqzAoomTCOrJB",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Clara - Elegant, Sultry and Soft",
+  "voice_id": "LudcwvHIZaqQOcQfVZSY",
+  "gender": "female",
+  "accent": "peninsular",
+  "language": "es",
+  "use_case": "informative_educational",
+  "descriptive": "formal"
+ },
+ {
+  "name": "Caty - Droll, Wry and Dry",
+  "voice_id": "54Cze5LrTSyLgbO6Fhlc",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "characters_animation",
+  "descriptive": "sassy"
+ },
+ {
+  "name": "Corrado Noventa - Mature, Deep and Rough",
+  "voice_id": "J098KweijcPPrlgo1irz",
+  "gender": "male",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "narrative_story",
+  "descriptive": "deep"
+ },
+ {
+  "name": "Corina Ioana - Clear, Friendly and Calm",
+  "voice_id": "gbLy9ep70G3JW53cTzFC",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Dani - Warm Brazilian Social Media Voice",
+  "voice_id": "PznTnBc8X6pvixs9UkQm",
+  "gender": "female",
+  "accent": "brazilian",
+  "language": "pt",
+  "use_case": "social_media",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Daria - The Upbeat American Gal",
+  "voice_id": "vgY2u4uMeJ27m87AxkPi",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "crisp"
+ },
+ {
+  "name": "Delia - Cheerful, Confident Radio DJ",
+  "voice_id": "4zwat5xS9O6SetLUEbxv",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "entertainment_tv",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Dexter - Dynamic, Bold and British",
+  "voice_id": "oTQK6KgOJHp8UGGZjwUu",
+  "gender": "male",
+  "accent": "british",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Eda Atlas - Smooth, Clear and Balanced",
+  "voice_id": "mBUB5zYuPwfVE6DTcEjf",
+  "gender": "female",
+  "accent": "istanbul",
+  "language": "tr",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Daniela - Young and elegant",
+  "voice_id": "kavPiGHUq62Aokyp5Tui",
+  "gender": "female",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Effy - Cheltenham (English) accent",
+  "voice_id": "K4k9n8oWj5s31gNdXhwZ",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Ela - Cheerful and Happy",
+  "voice_id": "NE7AIW5DoJ7lUosXV2KR",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "conversational",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Elise – Warm, Natural and Engaging",
+  "voice_id": "EST9Ui6982FZPSi7gCHi",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Elena - Resolute, Engaging and Lively",
+  "voice_id": "tXgbXPnsMpKXkuTgvE3h",
+  "gender": "female",
+  "accent": "peninsular",
+  "language": "es",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Giang",
+  "voice_id": "s6W2NupNY6TykGJoDtWy",
+  "gender": "female",
+  "accent": "standard",
+  "language": "vi",
+  "use_case": "conversational",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Denisa - Soft, Balanced and Tender",
+  "voice_id": "OAAjJsQDvpg3sVjiLgyl",
+  "gender": "female",
+  "accent": "standard",
+  "language": "cs",
+  "use_case": "social_media",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Ana Maria - Optimistic and Friendly",
+  "voice_id": "urzoE6aZYmSRdFQ6215h",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "social_media",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Farah - Smooth, Calm and Warm",
+  "voice_id": "4wf10lgibMnboGJGCLrP",
+  "gender": "female",
+  "accent": "jordanian",
+  "language": "ar",
+  "use_case": "advertisement",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Herbert - Monotone and Robotic",
+  "voice_id": "VukfMVtvHInVUWoMNPiQ",
+  "gender": "neutral",
+  "accent": "american",
+  "language": "en",
+  "use_case": "characters_animation",
+  "descriptive": "robotic"
+ },
+ {
+  "name": "Hannah - Bubbly, Perky and Outgoing",
+  "voice_id": "Ql3N2mGhMX0j2eRCqCwi",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "hyped"
+ },
+ {
+  "name": "Guillaume - Narrator",
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "gender": "male",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "narrative_story",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Emilia - Positive and Thoughtful",
+  "voice_id": "N8RXoLEWQWUCCrT8uDK7",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "advertisement",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Eunha - Elegant Korean Female",
+  "voice_id": "cBOtnpVZNlQ5VJygXGB8",
+  "gender": "female",
+  "accent": "seoul",
+  "language": "ko",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Irene UGC - Conversational & Optimistic",
+  "voice_id": "MOOG1hZESAxDt4UaletY",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "social_media",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Gabriel - Shorts & Reels",
+  "voice_id": "k3f7zOv6LF88v78QHCNh",
+  "gender": "male",
+  "accent": "brazilian",
+  "language": "pt",
+  "use_case": "social_media",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Irene - Warm, Smart and Educational",
+  "voice_id": "8wPhfH9uUzEMHTmRkoAR",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "informative_educational",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Henry - Investigative and Documentary",
+  "voice_id": "7wG1Xb86NcD408WGmfbJ",
+  "gender": "male",
+  "accent": "standard",
+  "language": "pl",
+  "use_case": "narrative_story",
+  "descriptive": "serious"
+ },
+ {
+  "name": "Hannah - All-American, bright, natural",
+  "voice_id": "ZSNL4hPqCnqoMPaI4jGX",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "entertainment_tv",
+  "descriptive": "sassy"
+ },
+ {
+  "name": "Iordanis",
+  "voice_id": "CsiIKWiAQRGMe7qh9P9q",
+  "gender": "male",
+  "accent": "standard",
+  "language": "el",
+  "use_case": "conversational",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Ivana - Calm, Slow & Friendly",
+  "voice_id": "JDYfAX20MbYfJGIjPTZz",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hr",
+  "use_case": "social_media",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Jade - Customer Service",
+  "voice_id": "3C1zYzXNXNzrB66ON8rj",
+  "gender": "female",
+  "accent": "parisian",
+  "language": "fr",
+  "use_case": "conversational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Joefe – PCOS Wellness Host",
+  "voice_id": "0UUckCoQ7VnIxcSOSmuW",
+  "gender": "female",
+  "accent": "filipino",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Jessa - Easygoing and Effortless",
+  "voice_id": "yj30vwTGJxSHezdAGsv9",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "narrative_story",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Jussi - Strong and Silly",
+  "voice_id": "dlbXHgJnwobU5JdZ8F5M",
+  "gender": "male",
+  "accent": "standard",
+  "language": "fi",
+  "use_case": "conversational",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Jerry - Warm and conversational Dutch Voice",
+  "voice_id": "gdTrLNuwWUaxC0z5n1j7",
+  "gender": "male",
+  "accent": "standard",
+  "language": "nl",
+  "use_case": "conversational",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Kristen - Natural, Upbeat and Focused",
+  "voice_id": "dfeOmy6Uay63tNhyO99j",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Koraly – Promo Video",
+  "voice_id": "rbFGGoDXFHtVghjHuS3E",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "advertisement",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "KonstantinosN",
+  "voice_id": "9xjHNaV3YwyHqzzgRuXl",
+  "gender": "male",
+  "accent": "athenian",
+  "language": "el",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Lara - Positive, Formal",
+  "voice_id": "L1kQ6rz0P1bI4L5Av3Ow",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hr",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Lauren - Friendly, Comforting and Soft",
+  "voice_id": "DODLEQrClDo8wCz460ld",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Laura - Intimidating and Dreamy",
+  "voice_id": "5Aahq892EEb6MdNwMM3p",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "advertisement",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Kuon - Cheerful, Clear and Steady",
+  "voice_id": "B8gJV1IhpuegLxdpXFOE",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ja",
+  "use_case": "characters_animation",
+  "descriptive": "cute"
+ },
+ {
+  "name": "Jagna",
+  "voice_id": "m2VPSbnJZWpLA9r0WX9q",
+  "gender": "female",
+  "accent": "standard",
+  "language": "pl",
+  "use_case": "social_media",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Jon - Natural Authority (Agent / Assistant)",
+  "voice_id": "sB7vwSCyX0tQmU24cW2C",
+  "gender": "male",
+  "accent": "american",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Kanika - Warm, Expressive and Natural",
+  "voice_id": "C2S5J6WvmHnrQWjUu6Rg",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hi",
+  "use_case": "social_media",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "Lena - Velvety & Trustworthy",
+  "voice_id": "d26eMDXtCFizSzBVHFFS",
+  "gender": "female",
+  "accent": "standard",
+  "language": "pl",
+  "use_case": "narrative_story",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Lea - UGC creator",
+  "voice_id": "KSyQzmsYhFbuOhqj1Xxv",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "social_media",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Jan - Bright and Gentle",
+  "voice_id": "7FpO7yFcBAfqM6vZJCg7",
+  "gender": "male",
+  "accent": "standard",
+  "language": "cs",
+  "use_case": "advertisement",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Jora Slobod - Calm, Deep and Reassuring",
+  "voice_id": "OlBp4oyr3FBAGEAtJOnU",
+  "gender": "male",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "deep"
+ },
+ {
+  "name": "Liberty X – Transatlantic Global Narration",
+  "voice_id": "iBo5PWT1qLiEyqhM7TrG",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Leon Stern - Rich and Deep",
+  "voice_id": "re2r5d74PqDzicySNW0I",
+  "gender": "male",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "narrative_story",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "Letícia - Gentle, Pleasant & Warm",
+  "voice_id": "CcElPA8NBrawbunFs7rh",
+  "gender": "female",
+  "accent": "brazilian",
+  "language": "pt",
+  "use_case": "narrative_story",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Madam Elena - Natural and Stoic",
+  "voice_id": "weVwDdxLoyB3VGk2p4zu",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fil",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Lisa - Lovely and Emotional",
+  "voice_id": "p2Wol3C7j3rHbfOrbL18",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "narrative_story",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Madlen - Casual, Calm and Brisk",
+  "voice_id": "Jv2zcgjn9Qu0uNMKJjb1",
+  "gender": "female",
+  "accent": "aegean",
+  "language": "el",
+  "use_case": "conversational",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Lily - Australian Female Advertiser",
+  "voice_id": "IMk6UKhh3TUTWOy0lm5b",
+  "gender": "female",
+  "accent": "australian",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "intense"
+ },
+ {
+  "name": "Manon - Serious & spontaneous French voice",
+  "voice_id": "m5U7XCsc8v988k2RJAqN",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "advertisement",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "Mario - Animated and chatty",
+  "voice_id": "tomkxGQGz4b1kE0EM722",
+  "gender": "male",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "conversational",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Marketa - Czech Female Voice",
+  "voice_id": "Nr9bRiFsgPeaoVggMD2V",
+  "gender": "female",
+  "accent": "standard",
+  "language": "cs",
+  "use_case": "advertisement",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Marta - Calm, Symphatic, and Empathetic",
+  "voice_id": "lehrjHysCyPSvjt0uSy6",
+  "gender": "female",
+  "accent": "standard",
+  "language": "pl",
+  "use_case": "advertisement",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Martina - Proactive AI Assistant",
+  "voice_id": "jw1XYij1FCiI9FENSxIf",
+  "gender": "female",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "conversational",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Martin Alvarez - Soothing and Hopeful",
+  "voice_id": "Wl3O9lmFSMgGFTTwuS6f",
+  "gender": "male",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Melina - Instructive and Robotic",
+  "voice_id": "jwjWpCFQUCpnHneBySsF",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Mathias - Engaging, Natural and Warm",
+  "voice_id": "ygiXC2Oa1BiHksD3WkJZ",
+  "gender": "male",
+  "accent": "jutlandic",
+  "language": "da",
+  "use_case": "narrative_story",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Martha - Expressive Greek Female",
+  "voice_id": "JrrE7QTGDmQKQuUnqk7H",
+  "gender": "female",
+  "accent": "cypriot",
+  "language": "el",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Lydia - Engaging and Enticing",
+  "voice_id": "t1myskmYQbiTpxXcDfBx",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Miiko - Clear Japanese Tutorial",
+  "voice_id": "1czwMoQxv9Ni4H7M5hXx",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ja",
+  "use_case": "advertisement",
+  "descriptive": "formal"
+ },
+ {
+  "name": "Mira - Calming, Relaxing and Chill",
+  "voice_id": "ZqvIIuD5aI9JFejebHiH",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "informative_educational",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Mike - Warm, Engaging and Optimistic",
+  "voice_id": "GRjgv3Z8Gg3RY82Qo6FW",
+  "gender": "male",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Mely Uneskee - Smooth and Cheerful",
+  "voice_id": "EJV7H2baGt5ab95tOoSG",
+  "gender": "female",
+  "accent": "standard",
+  "language": "fil",
+  "use_case": "advertisement",
+  "descriptive": "grumpy"
+ },
+ {
+  "name": "Mikidutza - Playful, Clear and Friendly",
+  "voice_id": "gCte8DU5EgI3W1KcuLSA",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "informative_educational",
+  "descriptive": "cute"
+ },
+ {
+  "name": "Milena - Silky, Sweet and Neutral",
+  "voice_id": "oWSxI36XAKnfMWmzmQok",
+  "gender": "female",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Mária",
+  "voice_id": "WNxHBFUm0NC5fojx98kr",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hu",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Milena - Optimistic, Clear, and Balanced",
+  "voice_id": "M1ydWt7KnBCiuv4CnEDC",
+  "gender": "female",
+  "accent": "standard",
+  "language": "bg",
+  "use_case": "advertisement",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Michaela - Calm Teacher",
+  "voice_id": "vdZa6jplen8RQdIWzOGX",
+  "gender": "female",
+  "accent": "standard",
+  "language": "cs",
+  "use_case": "social_media",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Miyu - Bright and Compelling",
+  "voice_id": "EnLxjGl88dNO1Jv6AZk2",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ja",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Niki 2 - Calm, Reassuring and Engaging",
+  "voice_id": "AnNshXL08po8KEaf53gz",
+  "gender": "female",
+  "accent": "standard",
+  "language": "el",
+  "use_case": "advertisement",
+  "descriptive": "classy"
+ },
+ {
+  "name": "Olena - Rich, Deep and Vibrant",
+  "voice_id": "ARxhnQPZCfSLpMBASSii",
+  "gender": "female",
+  "accent": "kiev",
+  "language": "uk",
+  "use_case": "entertainment_tv",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Paul - Engaging, Friendly and Mysterious",
+  "voice_id": "5BZv9Z02hAMUmkkcd5Hj",
+  "gender": "male",
+  "accent": "transylvanian",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Paul D -  News & Media",
+  "voice_id": "dWTwBsy8zBzq2iQfmWxN",
+  "gender": "male",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "advertisement",
+  "descriptive": "deep"
+ },
+ {
+  "name": "Ninoska - Bright, Genuine and Friendly",
+  "voice_id": "p4w8j6zCUDJ0nGJ3okKs",
+  "gender": "female",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Nayva for Social Media, e-Learning, Nonfiction How-To, and Corporate Training",
+  "voice_id": "0i0eaL5A0pznTa4q5uxk",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Peter - Natural, Professional Narrator",
+  "voice_id": "60CwgZt94Yf7yYIXMDDe",
+  "gender": "male",
+  "accent": "standard",
+  "language": "nl",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ },
+ {
+  "name": "Pepper",
+  "voice_id": "6vIP9mPY4dr6w8krUg01",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Nastassja - German",
+  "voice_id": "OCDYul75SEKSUI3jtFCT",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "narrative_story",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Rachel - Social Media Narrator",
+  "voice_id": "K7W7zLWeGoxU9YqWoB7A",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Ramona  - Professional and Diplomatic",
+  "voice_id": "07icRuDpWOQNoVqX4G6H",
+  "gender": "female",
+  "accent": "standard",
+  "language": "de",
+  "use_case": "social_media",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Rachel - Confident & Friendly",
+  "voice_id": "c3QefzBhE1Cx4Yl23IV3",
+  "gender": "female",
+  "accent": "british",
+  "language": "en",
+  "use_case": "advertisement",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Paul K — Deep French Narrator",
+  "voice_id": "5l4ttmr4SKNgi0HnOelT",
+  "gender": "male",
+  "accent": "standard",
+  "language": "fr",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Mike L - Soft, Clear and Charming",
+  "voice_id": "am5XuPVtut7uKJQKMja2",
+  "gender": "male",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "informative_educational",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Rina - Soft , Clear and Comforting",
+  "voice_id": "ycbyWsnf4hqZgdpKHqiU",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ru",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Nidhi - Calm & Friendly Hindi",
+  "voice_id": "x10bHF3yCZnNux9YbtTY",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hi",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Santiago Méndez Bravo - News Presenter",
+  "voice_id": "js7Ktj7UJCd7W0StVolw",
+  "gender": "male",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "informative_educational",
+  "descriptive": "modulated"
+ },
+ {
+  "name": "Sissi - Enthusiastic and Cheerful",
+  "voice_id": "Nzx4EODwcRtz5xESEixO",
+  "gender": "female",
+  "accent": "bavarian",
+  "language": "de",
+  "use_case": "advertisement",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Ramona - Professional, Polished & Expert",
+  "voice_id": "NPuwPNKx2XCQDddfkHN4",
+  "gender": "female",
+  "accent": "south african",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Serban Popescu - Professional Narrator",
+  "voice_id": "8nBBDfYxYXmDNaqTCxPH",
+  "gender": "male",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Sonia - Convincing, Clear and Serious",
+  "voice_id": "qjGjxc5szbbTGfofS1qy",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ro",
+  "use_case": "advertisement",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Sofia",
+  "voice_id": "0oYUKTNPbymIKVAkDQqh",
+  "gender": "female",
+  "accent": "macedonian",
+  "language": "el",
+  "use_case": "advertisement",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Sophia - Assertive, Joyful and Warm",
+  "voice_id": "7smwXrU3C1PfaspIIUZB",
+  "gender": "female",
+  "accent": "standard",
+  "language": "el",
+  "use_case": "social_media",
+  "descriptive": "pleasant"
+ },
+ {
+  "name": "Jonas - Calm and Informative",
+  "voice_id": "e6OiUVixGLmvtdn2GJYE",
+  "gender": "male",
+  "language": "sv",
+  "use_case": "advertisement",
+  "descriptive": "upbeat"
+ },
+ {
+  "name": "Taras Boyko - Resonant and Flowing",
+  "voice_id": "BFmokXObxZMCBXC0A9ny",
+  "gender": "male",
+  "accent": "standard",
+  "language": "uk",
+  "use_case": "narrative_story",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Stella - Steady, Clear and Cheerful",
+  "voice_id": "1YzIw7PZ7iaD4alelyHY",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ko",
+  "use_case": "social_media"
+ },
+ {
+  "name": "Tiziana - Smart, Balanced and Credible",
+  "voice_id": "RXoaSpLaWTEckJgPUBG3",
+  "gender": "female",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Valeria - Casual, Friendly and Chatty",
+  "voice_id": "JddqVF50ZSIR7SRbJE6u",
+  "gender": "female",
+  "accent": "latin american",
+  "language": "es",
+  "use_case": "conversational",
+  "descriptive": "crisp"
+ },
+ {
+  "name": "Tommy Thunstroem - Warm and Informative",
+  "voice_id": "6eknYWL7D5Z4nRkDy15t",
+  "gender": "male",
+  "accent": "stockholm",
+  "language": "sv",
+  "use_case": "informative_educational",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Valeria - Cheerful, Youthful, Catchy",
+  "voice_id": "9oPKasc15pfAbMr7N6Gs",
+  "gender": "female",
+  "accent": "argentine",
+  "language": "es",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Tabaza - Clear and Neutral",
+  "voice_id": "mm5VPgPEmjoD9MmwFLFW",
+  "gender": "female",
+  "accent": "standard",
+  "language": "pl",
+  "use_case": "advertisement",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Nora - Bright Italian Female Narrator",
+  "voice_id": "zFA34HbdHBvF8WhlSusK",
+  "gender": "female",
+  "accent": "romanesco",
+  "language": "it",
+  "use_case": "narrative_story",
+  "descriptive": "crisp"
+ },
+ {
+  "name": "Theos - Narrational, Assertive and Warm",
+  "voice_id": "n0vzWypeCK1NlWPVwhOc",
+  "gender": "male",
+  "accent": "standard",
+  "language": "el",
+  "use_case": "narrative_story",
+  "descriptive": "professional"
+ },
+ {
+  "name": "Viraj - Bold & Commanding Banking Agent",
+  "voice_id": "Ock0AL5DBkvTUDePt4Hm",
+  "gender": "male",
+  "accent": "indian",
+  "language": "en",
+  "use_case": "conversational",
+  "descriptive": "serious"
+ },
+ {
+  "name": "Vera - Young, Energetic and Expressive",
+  "voice_id": "xjlfQQ3ynqiEyRpArrT8",
+  "gender": "female",
+  "accent": "standard",
+  "language": "hu",
+  "use_case": "advertisement",
+  "descriptive": "excited"
+ },
+ {
+  "name": "Yaroslava - Loud and Hasty",
+  "voice_id": "0ZQZuw8Sn4cU0rN1Tm2K",
+  "gender": "female",
+  "accent": "standard",
+  "language": "uk",
+  "use_case": "informative_educational",
+  "descriptive": "crisp"
+ },
+ {
+  "name": "Wiktor - Soft, Friendly, and Optimistic",
+  "voice_id": "JAKjD1jCmqCqZB08hxlK",
+  "gender": "male",
+  "accent": "silesian",
+  "language": "pl",
+  "use_case": "social_media",
+  "descriptive": "casual"
+ },
+ {
+  "name": "Yoko - Calm & Resonant Woman",
+  "voice_id": "j3dRDAhPGt6NA8DY9Flv",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ja",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Victoria - Warm & Cinematic",
+  "voice_id": "D5RRIJYa9pFwxiSpbGbR",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ru",
+  "use_case": "social_media",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Zara – The Warm, Real-World Conversationalist",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "gender": "female",
+  "accent": "american",
+  "language": "en",
+  "use_case": "social_media",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Vito Pepe - Profound and Confident",
+  "voice_id": "TdZgLZ1h5vbFJrgh8QqK",
+  "gender": "male",
+  "accent": "standard",
+  "language": "it",
+  "use_case": "narrative_story",
+  "descriptive": "confident"
+ },
+ {
+  "name": "Yui - Warm, Clear and Natural",
+  "voice_id": "fUjY9K2nAIwlALOwSiwc",
+  "gender": "female",
+  "accent": "standard",
+  "language": "ja",
+  "use_case": "narrative_story",
+  "descriptive": "gentle"
+ },
+ {
+  "name": "Zazy - Clear Audiobook Narrator",
+  "voice_id": "U48DQ1c9SVmD2BVCSiHL",
+  "gender": "male",
+  "accent": "prague",
+  "language": "cs",
+  "use_case": "narrative_story",
+  "descriptive": "calm"
+ }
+]
