@@ -32,9 +32,9 @@ claude mcp list         # шукай сервер comfy-cloud (або схожу
 hyperframes --version
 ```
 
-Якщо команда не знайдена встанови за цим шляхом:
+Якщо команда не знайдена встанови з цього репо:
 
-Джерело: https://github.com/heygen-com/hyperframes
+https://github.com/heygen-com/hyperframes
 
 ## Крок 2 — встанови скіл у визначену з Кроку 0 теку
 
